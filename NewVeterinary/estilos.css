@@ -1,0 +1,128 @@
+img{
+    display: block;	
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
+    height:35%;
+}
+#logindiv{
+    text-align: center;
+    background-color: plum;
+    border-radius: 25px;
+    width: 25%;
+    height: auto;
+    margin:0 auto;
+}
+#top{
+    position: relative;
+    height: 25px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+    
+#top a{
+    background-color: #a68ce2;
+    font-family: cursive, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    font-size: 15px;
+    display: block;
+    height: auto;
+    width: auto;
+    float: right;
+    border-radius: 10px;
+}
+
+#top a:hover{
+    background-color: rgb(147, 80, 255);
+    font-weight: normal;
+}
+
+#logout {
+    float: right;
+}
+.info{
+    text-align: left;
+}
+.info h3, .info p{
+    color: indigo;
+}
+#consulta{
+    text-align: center;
+    margin: 30px auto;
+}
+table {
+    border-collapse:collapse;
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+    margin:0 0;
+ }
+table th { 
+    background-color:#7776bd;
+    color:white;
+    width:50%; 
+}
+table td, table th { 
+    padding:5px;
+    border:0; 
+}
+table td { 
+    border-bottom:1px dotted #978bb9; 
+}
+#consulta td a{
+    text-decoration: none;
+    color: darkslateblue;
+    background-color:plum;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 2px;
+    font-size: 15px;
+    display: block;
+    height: auto;
+    width: auto;
+}
+#pacientes{
+    background-color: #a68ce2;
+    font-family: cursive, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    font-size: 15px;
+    display: block;
+    height: auto;
+    width: auto;
+    float: left;
+    border-radius: 10px;
+}
+#historialMascota{
+    text-decoration: none;
+    font-weight: bold;
+    color: plum;
+}
+#historialMascota:hover{
+    color: purple;
+}
+#imgMascotas{
+    display: block;	
+    margin-left: 0;
+    width:15%;
+    height:15%;
+}
+#mascota_User a{
+    text-decoration: none;
+    color: black;
+}
+#mascota_User a:hover{
+    color: purple;
+}
+#imgMascotaUser{
+    width:150px;
+    height:150px;
+}
